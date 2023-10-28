@@ -4,7 +4,7 @@
   "description": "npm run installtailwind to setup",
   "main": "index.js",
   "scripts": {
-    "installtailwind": "echo \"npm install -D tailwindcss | npx tailwindcss init",
+    "installtailwind": "npm install -D tailwindcss | npx tailwindcss init",
     "watchtailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "keywords": [],
